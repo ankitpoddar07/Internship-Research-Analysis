@@ -1,0 +1,36 @@
+{
+  "name": "food-app",
+  "version": "1.0.0",
+  "description": "This project includes all key components, design system, and instructions to run the food delivery mobile app UI as described.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.52.1",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "^0.0.0",
+    "supabase": "^2.31.8",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^4.9.5",
+    "vite": "^7.0.5"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

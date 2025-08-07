@@ -1,0 +1,58 @@
+
+FoodEase Project Files - Complete Structure
+
+Main Application:
+- App.tsx (Main application component)
+- styles/globals.css (Global styles and theming)
+
+Components:
+- components/WelcomeScreen.tsx (Landing page)
+- components/AuthScreen.tsx (Login/Signup)
+- components/HomeScreen.tsx (Restaurant listing)
+- components/RestaurantScreen.tsx (Restaurant details)
+- components/CartScreen.tsx (Shopping cart)
+- components/CheckoutScreen.tsx (Order checkout)
+- components/OrderTrackingScreen.tsx (Order tracking)
+- components/ProfileScreen.tsx (User profile)
+- components/OrderHistoryScreen.tsx (Order history)
+- components/DatabaseInfo.tsx (Database information)
+
+UI Components:
+- components/ui/ (Complete ShadCN UI library)
+- components/figma/ImageWithFallback.tsx (Image component)
+
+Backend:
+- supabase/functions/server/index.tsx (Hono server)
+- supabase/functions/server/kv_store.tsx (Database utilities)
+
+Utils:
+- utils/supabase.ts (Supabase client)
+- utils/supabase/info.tsx (Project info)
+
+All files are production-ready with:
+✅ Complete authentication system
+✅ Restaurant browsing and search
+✅ Shopping cart functionality
+✅ Order placement and tracking
+✅ User profile management
+✅ Mobile-responsive design
+✅ Chinese cuisine support (宫保鸡丁, 麻婆豆腐, etc.)
+✅ Famous restaurant brands (McDonald's, KFC, Domino's, etc.)
+✅ WiFi connection indicator
+✅ Supabase backend integration
+
+To download individual files:
+1. Right-click in the code editor
+2. Select "Save As" for each file
+3. Maintain the folder structure as shown above
+
+Database Information:
+Project URL: https://bxeuwgugligukhzokekc.supabase.co
+To access your Supabase dashboard:
+1. Go to https://supabase.com/dashboard
+2. Sign in with your account
+3. Select your project: bxeuwgugligukhzokekc
+4. Navigate to:
+   - Authentication > Users (to see user data)
+   - Database > Tables (to see kv_store_9850631d table)
+   - Edge Functions > Logs (to see API logs)
